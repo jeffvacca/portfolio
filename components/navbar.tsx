@@ -38,7 +38,7 @@ export const Navbar = () => {
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<NextLink
-								className={`uppercase text-slate-700 ${pathname === item.href ? "!text-primary font-semibold" : ""}`}
+								className={`uppercase text-slate-700 cursor-pointer ${pathname === item.href ? "!text-primary font-semibold" : ""}`}
 								href={item.href}
 							>
 								{item.label}
@@ -88,14 +88,12 @@ export const Navbar = () => {
 				<div className="mx-4 mt-2 flex flex-col gap-2 z-10">
 					{siteConfig.navMenuItems.map((item, index) => (
 						<NavbarMenuItem key={`${item}-${index}`}>
-							<Link
-								className={`uppercase text-slate-700 ${pathname === item.href ? "!text-primary font-semibold" : ""}`}
+							<a
+								className={`uppercase text-slate-700 text-lg ${pathname === item.href ? "!text-primary font-semibold" : ""}`}
 								href={item.href}
-								size="lg"
-								onPress={() => setIsMenuOpen()}
 							>
 								{item.label}
-							</Link>
+							</a>
 						</NavbarMenuItem>
 					))}
 				</div>
