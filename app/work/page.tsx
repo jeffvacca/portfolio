@@ -54,7 +54,7 @@ export default function WorkPage() {
 	const slideItems = data?.slideData.map((item: any, index: any) => (
 		<div
 			key={item.id}
-			className="bg-cover bg-top bg-center h-56 w-full gallery-tile relative cursor-pointer"
+			className="group bg-cover bg-top bg-center h-56 w-full gallery-tile relative cursor-pointer"
 			onClick={() => {
 				setIndex(index);
 			}}
@@ -64,9 +64,8 @@ export default function WorkPage() {
 			}}
 			onMouseLeave={() => setShowOverlay(-1)}
 		>
-			<div className="gallery-tile__overlay absolute p-4">
-
-				<h5 className="gallery-tile__overlay--title text-slate text-2xl text-white font-semibold">{item.slides[0].title}</h5>
+			<div className="gallery-tile__overlay opacity-100 md:opacity-0 absolute p-4 h-[50%] md:h-full top-[50%] md:top-[100%] sm:group-hover:top-[50%] md:group-hover:top-[40%]">
+				<h5 className="gallery-tile__overlay--title text-slate text-xl md:text-2xl text-white font-semibold top-[38%] md:top-[100px]">{item.slides[0].title}</h5>
 			</div>
 		</div>
 	))
@@ -78,7 +77,7 @@ export default function WorkPage() {
 					<h1 className={title({ color: "blue" })}>work</h1>
 				</div>
 				<div
-					className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-2 transition-all ease-in-out !duration-1000 opacity-0"
+					className="grid grid-cols-1 sm:grid-cols-2  2xl:grid-cols-4 gap-2 transition-all ease-in-out !duration-1000 opacity-0"
 					style={{
 						opacity: isLoading ? "0" : "1",
 					}}
