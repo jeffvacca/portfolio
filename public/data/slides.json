@@ -241,7 +241,6 @@
                     "description": "Flexible template for NYDN articles, enabling the staff writers to bring their strories to life with a myriad of layout options and built in widgets.",
                     "alt": "https://www.nydailynews.com/"
                 },
-
                 {
                     "src": "/images/nydn-article-6.jpg",
                     "title": "NYDN Article Template",
@@ -329,6 +328,29 @@
                     "title": "NYDN Vehicle Pages",
                     "description": "Dynamic data powered by Edmunds. Long term project instrumental in securing a strategic business partnership.",
                     "alt": "https://www.nydailynews.com/"
+                }
+            ]
+        },
+        {
+            "id": "nydnvehicle",
+            "slides": [
+                {
+                    "src": "/images/dirt-1.jpg",
+                    "title": "DiRT",
+                    "description": "Website for my 90's grunge tribute band DiRT.  Vue, PrimeVue, PrimeFlex, Pinia. ",
+                    "alt": "https://dirtgrunge.com"
+                },
+                {
+                    "src": "/images/dirt-2.jpg",
+                    "title": "DiRT",
+                    "description": "Website for my 90's grunge tribute band DiRT.  Vue, PrimeVue, PrimeFlex, Pinia. ",
+                    "alt": "https://dirtgrunge.com"
+                },
+                {
+                    "src": "/images/dirt-3.jpg",
+                    "title": "DiRT",
+                    "description": "Website for my 90's grunge tribute band DiRT.  Vue, PrimeVue, PrimeFlex, Pinia. ",
+                    "alt": "https://dirtgrunge.com"
                 }
             ]
         }
