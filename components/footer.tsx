@@ -20,7 +20,7 @@ export const Footer = () => {
 							<Link
 								isExternal
 								className="flex items-center ml-4"
-								href="/docs/JeffVacca-Resume-Mar-2024.pdf"
+								href={siteConfig.links.resume}
 								title="resumé"
 								aria-label="Email"
 							>

@@ -3244,18 +3244,6 @@ video {
 	animation: animatedTextGradient 20s ease-in-out infinite alternate;
 }
 
-
-/* LIGHTBOX */
-/* .yarl__container {
-	background-color: rgba(255, 255, 255, 0.5) !important;
-  }
-
-  .yarl__slide_title_container,   .yarl__slide_description_container{
-	background-color: rgba(0, 0, 0, 0.75) !important;
-
-  } */
-
-
 /* WORK GALLERY */
 .gallery-tile {
 	overflow: hidden;

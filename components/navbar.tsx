@@ -56,7 +56,7 @@ export const Navbar = () => {
 					<Link
 						isExternal
 						className="flex items-center pl-4"
-						href="/docs/JeffVacca-Resume-031024.pdf"
+						href={siteConfig.links.resume}
 						title="resumé"
 						aria-label="Email"
 					>

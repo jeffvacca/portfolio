@@ -3,7 +3,6 @@ import { title } from "@/components/primitives";
 export default function AboutPage() {
 	return (
 		<>
-
 			<div className="relative isolate bg-white px-6  overflow-visible lg:px-0">
 				<div className="mx-auto grid grid-cols-12 gap-8 grid-rows-none relative">
 					<div className="col-span-12 md:col-span-8 lg:col-span-9 overflow-visible">
@@ -28,6 +27,5 @@ export default function AboutPage() {
 				</div>
 			</div>
 		</>
-
 	);
 }

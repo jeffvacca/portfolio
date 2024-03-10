@@ -1,6 +1,6 @@
 # Next.js & NextUI Template
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+Portfolio site for Jeff Vacca, senior frontend engineer with over 12 years of enterprise level experience.
 
 ## Technologies Used
 
@@ -13,15 +13,6 @@ This is a template for creating applications using Next.js 13 (app directory) an
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
 ## How to Use
-
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
 
 ### Install dependencies
 
@@ -41,8 +32,15 @@ Licensed under the [MIT license](https://github.com/nextui-org/next-app-template
 
 
 ## Developer Notes
+Thank you for taking a look!  
 
-To Do:
 
+Future enhancements:
+
+--Move data to firebase or other db
+--Implement SASS - create breapoint utility
+--Clean up implementation of work gallery hover state
 --Add srcset to the lightbox images
 --Style the lightbox title and captions - more contrast - better visibility
+--Display testimonials - ticker or other framer motion implemention
+

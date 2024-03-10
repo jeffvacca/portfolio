@@ -2,9 +2,7 @@
 
 import * as React from "react";
 import { useState, useEffect } from 'react';
-
 import { title } from "@/components/primitives";
-
 import {
 	Lightbox,
 	useLightboxState,
@@ -16,13 +14,9 @@ import { OpenLinkIcon } from "@/components/icons";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/captions.css";
 
-// import data from "../data/slides2.json";
-
 export default function WorkPage() {
 	const [index, setIndex] = React.useState(-1);
 	const [showOverlay, setShowOverlay] = React.useState(-1);
-
-
 	const [data, setData] = useState<any>(null)
 	const [isLoading, setLoading] = useState(true)
 
@@ -34,8 +28,6 @@ export default function WorkPage() {
 				setLoading(false)
 			})
 	}, [])
-
-
 
 	const MyIcon = createIcon(
 		"MyIcon",
@@ -84,7 +76,6 @@ export default function WorkPage() {
 				>
 					{slideItems}
 				</div>
-
 			</section>
 			<Lightbox
 				index={0}

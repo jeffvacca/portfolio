@@ -43,6 +43,7 @@ export const siteConfig = {
 	],
 	links: {
 		linkedIn: "https://www.linkedin.com/in/jeff-vacca-1678247a/",
-		github: "https://github.com/jeffvacca"
+		github: "https://github.com/jeffvacca",
+		resume: "/docs/JeffVacca-Resume-031024.pdf"
 	},
 };
