@@ -69,7 +69,7 @@ export default function WorkPage() {
 					<h1 className={title({ color: "blue" })}>work</h1>
 				</div>
 				<div
-					className="grid grid-cols-1 sm:grid-cols-2  2xl:grid-cols-4 gap-2 transition-all ease-in-out !duration-1000 opacity-0"
+					className="grid grid-cols-1 sm:grid-cols-2  2xl:grid-cols-4 gap-4 transition-all ease-in-out !duration-1000 opacity-0"
 					style={{
 						opacity: isLoading ? "0" : "1",
 					}}
