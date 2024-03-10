@@ -155,7 +155,6 @@
 .gallery-tile:hover .gallery-tile__overlay,
 .gallery-tile:focus .gallery-tile__overlay {
 	opacity: 1;
-	/* top: 40%; */
 }
 
 .gallery-tile__overlay--title {

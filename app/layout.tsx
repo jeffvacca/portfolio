@@ -12,13 +12,14 @@ import clsx from "clsx";
 export const metadata: Metadata = {
 	title: {
 		default: siteConfig.name,
-		template: `%s - ${siteConfig.name}`,
+		template: `${siteConfig.name}`,
 	},
 	description: siteConfig.description,
 	themeColor: [
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
 	],
+	authors : siteConfig.authors,
 	icons: {
 		icon: "/favicon.ico",
 		shortcut: "/favicon-16x16.png",
@@ -46,17 +47,6 @@ export default function RootLayout({
 						<main className="container mx-auto max-w-7xl px-6 flex-grow">
 							{children}
 						</main>
-						{/* <footer className="w-full flex items-center justify-center py-3">
-							<Link
-								isExternal
-								className="flex items-center gap-1 text-current"
-								href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
-								title="nextui.org homepage"
-							>
-								<span className="text-default-600">Powered by</span>
-								<p className="text-primary">NextUI</p>
-							</Link>
-						</footer> */}
 						<Footer />
 					</div>
 				</Providers>
