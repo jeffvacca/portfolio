@@ -1,0 +1,23 @@
+{
+    "slideData": [
+        {
+            "id": 1,
+            "text": "text",
+            "author": "author",
+            "authorTitle": "title"
+        },
+        {
+            "id": 1,
+            "text": "text",
+            "author": "author",
+            "authorTitle": "title"
+        },
+        {
+            "id": 1,
+            "text": "text",
+            "author": "author",
+            "authorTitle": "title"
+        },
+     
+    ]
+}

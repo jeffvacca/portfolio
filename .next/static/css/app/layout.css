@@ -4418,14 +4418,6 @@ video {
   opacity: var(--nextui-disabled-opacity);
 }
 
-.group:hover .group-hover\:top-\[40\%\] {
-  top: 40%;
-}
-
-.group:hover .group-hover\:top-\[50\%\] {
-  top: 50%;
-}
-
 .group:hover .group-hover\:block {
   display: block;
 }
