@@ -126,6 +126,30 @@
 	animation: animatedTextGradient 20s ease-in-out infinite alternate;
 }
 
+.quote-gradient{
+	position: absolute;
+	top:0;
+	left:-5px;
+	height:7rem;
+	line-height:15rem;
+	font-size: clamp(20rem, 1.5vw, 20rem);
+	margin: 5px;
+	fill: linear-gradient(45deg,
+			#3a7bd5 10%,
+			#C9FFBF 20%,
+			#f857a6 30%,
+			#2BC0E4 40%,
+			#ef32d9 55%,
+			#C9FFBF 70%,
+			#ff4e50 80%,
+			#3a7bd5 95%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 500% auto;
+	animation: animatedTextGradient 20s ease-in-out infinite alternate;
+}
+
 /* WORK GALLERY */
 .gallery-tile {
 	overflow: hidden;

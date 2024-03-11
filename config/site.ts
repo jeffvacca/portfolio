@@ -7,10 +7,6 @@ export const siteConfig = {
 	authors: [{ name: "Jeff Vacca", url: "https://jeffvacca.com" }] ,
 	navItems: [
 		{
-			label: "Home",
-			href: "/",
-		},
-		{
 			label: "Work",
 			href: "/work",
 		},
@@ -21,14 +17,14 @@ export const siteConfig = {
 		{
 			label: "Skills",
 			href: "/skills",
+		},
+		{
+			label: "Testimonials",
+			href: "/testimonials",
 		}
 	],
 	navMenuItems: [
 		{
-			label: "Home",
-			href: "/",
-		},
-		{
 			label: "Work",
 			href: "/work",
 		},
@@ -39,6 +35,11 @@ export const siteConfig = {
 		{
 			label: "Skills",
 			href: "/skills",
+			
+		},
+		{
+			label: "Testimonials",
+			href: "/testimonials",
 		}
 	],
 	links: {
