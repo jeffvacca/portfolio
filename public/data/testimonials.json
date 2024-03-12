@@ -2,26 +2,25 @@
     "testimonials": [
         {
             "id": "1",
+            "text": "Jeff is an incredible Frontend Engineer. I have had the pleasure of working directly with Jeff on a number of projects and each one has been full of excellent communication and feedback on design choices and data architecture.",
+            "author": "Justin LaRose",
+            "title": "Technical Lead",
+            "company": "ANDMORE"
+        },
+        {
+            "id": "2",
             "text": "Jeff Vacca is an amazing front end developer. Any company would be lucky to have him. I have been working with him over the last couple years and his skills not only with software but with people are top notch.",
             "author": "Matt Collier",
             "title": "VP of Engineering",
             "company": "ANDMORE"
         },
         {
-            "id": "2",
+            "id": "3",
             "text": "One of Jeff's notable strengths is his ability to lead and collaborate within a team. He played a key role in several high profile projects where his leadership and communication skills were instrumental in achieving project goals.",
             "author": "Bill Summa",
             "title": "QA Engineer",
             "company": "ANDMORE"
         },
-        {
-            "id": "3",
-            "text": "Jeff is an incredible Frontend Engineer. I have had the pleasure of working directly with Jeff on a number of projects and each one has been full of excellent communication and feedback on design choices and data architecture.",
-            "author": "Justin LaRose",
-            "title": "Technical Lead",
-            "company": "ANDMORE"
-        },
-     
         {
             "id": "4",
             "text" : "I really recommend Jeff because he is an amazing worker and teammate. Jeff works very hard and is good at what he does.",

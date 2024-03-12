@@ -9,7 +9,7 @@ export default function Skills() {
 	const skillArray = [
 		{
 			skill: "Vue",
-			rating: 90,
+			rating: 95,
 			indicatorClass: "bg-gradient-to-r from-malibu-500 to-secondary-400"
 		},
 		{
@@ -25,17 +25,17 @@ export default function Skills() {
 		},
 		{
 			skill: "SASS",
-			rating: 90,
+			rating: 95,
 			indicatorClass: "bg-gradient-to-r from-[#ef32d9] to-[#89fffd]"
 		},
 		{
 			skill: "CSS",
-			rating: 95,
+			rating: 100,
 			indicatorClass: "bg-gradient-to-r from-[#C9FFBF] to-[#FFAFBD]"
 		},
 		{
 			skill: "HTML",
-			rating: 98,
+			rating: 100,
 			indicatorClass: "bg-gradient-to-r from-[#00C9FF] to-[#92FE9D]"
 		},
 		{
@@ -45,12 +45,12 @@ export default function Skills() {
 		},
 		{
 			skill: "Javascript / JQuery",
-			rating: 87,
+			rating: 90,
 			indicatorClass: "bg-gradient-to-r from-[#f857a6] to-[#449dc8]"
 		},
 		{
 			skill: "Photoshop / Sketch / Zeplin / Invision",
-			rating: 50,
+			rating: 65,
 			indicatorClass: "bg-gradient-to-r from-sky-400 to-fuchsia-600"
 		},
 		{
@@ -71,7 +71,7 @@ export default function Skills() {
 		},
 		{
 			skill: "Email",
-			rating: 65,
+			rating: 70,
 			indicatorClass: "bg-gradient-to-r from-[#ef32d9] to-[#89fffd]"
 		},
 
