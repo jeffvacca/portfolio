@@ -508,6 +508,12 @@ video {
     max-width: 768px;
   }
 }
+@media (min-width: 800px) {
+
+  .container {
+    max-width: 800px;
+  }
+}
 @media (min-width: 1024px) {
 
   .container {
@@ -3283,7 +3289,6 @@ video {
 
 .jv-logo {
 	font-size: clamp(2.8rem, 1.5vw, 3rem);
-	margin: 5px;
 	background: linear-gradient(45deg,
 			#3a7bd5 10%,
 			#C9FFBF 20%,
@@ -6696,10 +6701,6 @@ video {
     display: block;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:hidden {
     display: none;
   }
@@ -6778,6 +6779,13 @@ video {
   }
 }
 
+@media (min-width: 800px) {
+
+  .mlg\:flex {
+    display: flex;
+  }
+}
+
 @media (min-width: 1024px) {
 
   .lg\:col-span-3 {
@@ -6786,6 +6794,10 @@ video {
 
   .lg\:col-span-9 {
     grid-column: span 9 / span 9;
+  }
+
+  .lg\:flex {
+    display: flex;
   }
 
   .lg\:px-0 {

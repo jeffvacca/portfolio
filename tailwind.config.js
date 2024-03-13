@@ -9,7 +9,12 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+
+    extend: {
+      screens: {
+        'mlg': '800px'
+      },
+    },
   },
   darkMode: "class",
   plugins: [
@@ -108,7 +113,7 @@ module.exports = {
             },
 
             // ... rest of the colors
-          },
+          }
         }
       }
     })

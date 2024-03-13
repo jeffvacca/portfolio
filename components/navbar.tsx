@@ -34,7 +34,7 @@ export const Navbar = () => {
 						<JvLogo />
 					</NextLink>
 				</NavbarBrand>
-				<ul className="hidden md:flex gap-4 justify-start ml-2">
+				<ul className="hidden sm:flex gap-4 justify-start ml-2">
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<NextLink
@@ -49,10 +49,10 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarContent
-				className="hidden sm:flex basis-1/5 sm:basis-full"
+				className="hidden mlg:flex basis-1/5 sm:basis-full"
 				justify="end"
 			>
-				<NavbarItem className="hidden sm:flex gap-2">
+				<NavbarItem className="flex gap-2">
 					<Link
 						isExternal
 						className="flex items-center pl-4"

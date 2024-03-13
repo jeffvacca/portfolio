@@ -109,7 +109,6 @@
 
 .jv-logo {
 	font-size: clamp(2.8rem, 1.5vw, 3rem);
-	margin: 5px;
 	background: linear-gradient(45deg,
 			#3a7bd5 10%,
 			#C9FFBF 20%,
