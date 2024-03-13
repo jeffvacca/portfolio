@@ -47,7 +47,7 @@ export const Footer = () => {
 							<Link
 								isExternal
 								className="flex items-center ml-4"
-								href={siteConfig.links.github}
+								href={siteConfig.links.linkedIn}
 								aria-label="LinkedIn">
 								<LinkedInIcon className="h-6 w-6 md:h-9 md:w-9 text-slate-300" />
 							</Link>

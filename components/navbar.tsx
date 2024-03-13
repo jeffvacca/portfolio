@@ -74,7 +74,7 @@ export const Navbar = () => {
 						<GithubIcon className="text-default-500" />
 					</Link>
 
-					<Link isExternal href={siteConfig.links.github} aria-label="LinkedIn">
+					<Link isExternal href={siteConfig.links.linkedIn} aria-label="LinkedIn">
 						<LinkedInIcon className="text-default-500" />
 					</Link>
 				</NavbarItem>

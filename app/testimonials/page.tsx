@@ -23,7 +23,7 @@ export default function TestimonialsPage() {
 		"Item 5"
 	];
 	return (
-		<div className="h-screen-calc">
+		<div className="h-screen-calc testimonials">
 			<div className="mb-16">
 				<h1 className={title({ color: "blue" })}>testimonials</h1>
 			</div>

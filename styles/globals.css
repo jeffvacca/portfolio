@@ -160,3 +160,7 @@
 .h-screen-calc{
 	min-height:calc(100vh - 64px);
 }
+
+/* .testimonials{
+	max-width:calc(100% - 17px);
+} */
