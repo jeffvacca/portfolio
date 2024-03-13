@@ -14,7 +14,16 @@ export const Footer = () => {
 		<footer className="border-primary bg-slate-900 block py-6 px-6">
 			<div className="mx-auto h-full">
 				<div className="flex justify-between items-center h-full">
-					<h3 className="text-slate-300 text-3xl sm:text-5xl md:text-7xl font-bold">reach out.</h3>
+					<h3>
+						<Link
+							className="flex items-center ml-4 text-slate-300 text-3xl sm:text-5xl md:text-7xl font-bold"
+							href="mailto:jeffvacca@gmail.com"
+							title="email me"
+							aria-label="Email"
+						>
+							reach out.
+						</Link>
+					</h3>
 					<div className="flex justify-end items-end flex-col">
 						<div className="flex justify-end items-center mb-1">
 							<Link
@@ -52,7 +61,14 @@ export const Footer = () => {
 								<LinkedInIcon className="h-6 w-6 md:h-9 md:w-9 text-slate-300" />
 							</Link>
 						</div>
-						<p className="text-slate-500 text-sm md:text-base">jeffvacca[at]gmail.com</p>
+						<Link
+							className="text-slate-500 text-sm md:text-base"
+							href="mailto:jeffvacca@gmail.com"
+							title="email me"
+							aria-label="Email"
+						>
+							jeffvacca[at]gmail.com
+						</Link>
 					</div>
 
 				</div>
