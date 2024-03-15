@@ -3,6 +3,7 @@
 import React from "react";
 import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image, Input, Button } from "@nextui-org/react";
 import memes from "../tempData/memes";
+import html2canvas from "html2canvas";
 
 
 export default function MemePage() {
@@ -18,21 +19,35 @@ export default function MemePage() {
 		const memesArray = allMemeImages.data.memes
 		const randomNumber = Math.floor(Math.random() * memesArray.length)
 		const url = memesArray[randomNumber].url
-		setMeme(prevMeme => ({
+		setMeme({
 			topText: "",
 			bottomText: "",
 			randomImage: url
-		}))
+		});
 	}
 
-	function handleChange(event: React.ChangeEvent<HTMLInputElement>){
-		const {name, value} = event.target;
+	function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
+		const { name, value } = event.target;
 		setMeme(prev => ({
 			...prev,
 			[name]: value
 		}))
 	}
 
+	async function handleDownloadImage(){
+		const element = document.getElementById('print') as HTMLElement,
+		canvas = await html2canvas(element, {allowTaint: true, useCORS : true}),
+		
+		data = canvas.toDataURL('image/jpg'),
+		link = document.createElement('a');
+	
+		link.href = data;
+		link.download = 'downloaded-image.jpg';
+	
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	}
 
 
 
@@ -79,28 +94,23 @@ export default function MemePage() {
 						</Button>
 					</div>
 					<div className="flex flex-col items-center justify-center">
-						<div className="relative">
+						<div className="relative" id="print">
 							<Image
 								className="max-w-full max-h-96"
+								radius="none"
 								alt="Meme Image"
 								src={meme.randomImage}
 							/>
 							<h2 className="meme--text top-0 z-10">{meme.topText}</h2>
 							<h2 className="meme--text bottom-0 z-10">{meme.bottomText}</h2>
 						</div>
-
-
 					</div>
 				</CardBody>
 				<Divider />
 				<CardFooter>
-					<Link
-						isExternal
-						showAnchorIcon
-						href="https://github.com/nextui-org/nextui"
-					>
-						Visit source code on GitHub.
-					</Link>
+					<Button color="primary" onClick={handleDownloadImage} className="w-full">
+						Download your meme!
+					</Button>
 				</CardFooter>
 			</Card>
 		</div>
