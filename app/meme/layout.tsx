@@ -1,0 +1,13 @@
+export default function MemeLayout({
+	children,
+}: {
+	children: React.ReactNode;
+}) {
+	return (
+		<section className="flex flex-col max-w-lg mx-auto items-center justify-center gap-4 py-8 px-6">
+			<div className="w-full">
+				{children}
+			</div>
+		</section>
+	);
+}
